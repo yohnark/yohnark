@@ -1,27 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250">
-<style>
-.t{font:600 18px ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif;fill:#f0f6fc}
-.s{font:14px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#8b949e}
-.l{stroke:#30363d;stroke-width:2}
-.b{fill:#0d1117;stroke:#30363d}
-</style>
-<rect width="1200" height="250" rx="16" fill="#0d1117" stroke="#30363d"/>
-<text x="52" y="46" class="s">AI DEVELOPMENT CONTROL PLANE</text>
-<line x1="52" y1="64" x2="1148" y2="64" class="l"/>
-<g transform="translate(52 94)">
- <rect width="184" height="92" rx="10" class="b"/><text x="18" y="38" class="t">Inari</text><text x="18" y="64" class="s">governance</text>
-</g>
-<g transform="translate(278 94)">
- <rect width="184" height="92" rx="10" class="b"/><text x="18" y="38" class="t">Nawabari</text><text x="18" y="64" class="s">runtime</text>
-</g>
-<g transform="translate(504 94)">
- <rect width="184" height="92" rx="10" class="b"/><text x="18" y="38" class="t">Mottainai</text><text x="18" y="64" class="s">orchestration</text>
-</g>
-<g transform="translate(730 94)">
- <rect width="184" height="92" rx="10" class="b"/><text x="18" y="38" class="t">Wabachi</text><text x="18" y="64" class="s">architecture</text>
-</g>
-<g transform="translate(956 94)">
- <rect width="192" height="92" rx="10" class="b"/><text x="18" y="38" class="t">Suzukuri</text><text x="18" y="64" class="s">execution</text>
-</g>
-<path d="M236 140h42M462 140h42M688 140h42M914 140h42" stroke="#58a6ff" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480">
+<defs>
+ <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#0b0f14"/><stop offset=".5" stop-color="#0d1117"/><stop offset="1" stop-color="#0b0f14"/></linearGradient>
+ <filter id="s"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-opacity=".4"/></filter>
+</defs>
+<style>.h{font:700 22px ui-sans-serif,system-ui,sans-serif;fill:#f0f6fc}.k{font:12px ui-monospace,monospace;fill:#58a6ff;letter-spacing:1.5px}.d{font:14px ui-sans-serif,system-ui,sans-serif;fill:#8b949e}.n{font:11px ui-monospace,monospace;fill:#6e7681}.box{fill:#111820;stroke:#30363d}.line{stroke:#58a6ff;stroke-width:2;stroke-opacity:.6}</style>
+<rect width="1200" height="480" rx="20" fill="url(#bg)" stroke="#30363d"/>
+<text x="56" y="52" class="k">CONTROL PLANE / SYSTEM MAP</text><text x="56" y="86" class="d">A governed path from declared intent to verified execution.</text>
+<path d="M600 130v42M240 172h720M240 172v35M600 172v35M960 172v35" class="line"/>
+<g filter="url(#s)" transform="translate(470 112)"><rect width="260" height="62" rx="12" class="box"/><text x="22" y="27" class="k">CANONICAL INTENT</text><text x="22" y="48" class="n">contract / architecture / policy</text></g>
+<g filter="url(#s)" transform="translate(80 207)"><rect width="320" height="105" rx="14" class="box"/><text x="24" y="36" class="h">Inari</text><text x="24" y="61" class="k">GOVERNANCE</text><text x="24" y="85" class="d">authority + lifecycle</text></g>
+<g filter="url(#s)" transform="translate(440 207)"><rect width="320" height="105" rx="14" class="box"/><text x="24" y="36" class="h">Wabachi</text><text x="24" y="61" class="k">ARCHITECTURE</text><text x="24" y="85" class="d">semantic constraints</text></g>
+<g filter="url(#s)" transform="translate(800 207)"><rect width="320" height="105" rx="14" class="box"/><text x="24" y="36" class="h">Mottainai</text><text x="24" y="61" class="k">ORCHESTRATION</text><text x="24" y="85" class="d">context + coordination</text></g>
+<path d="M240 312v40M600 312v40M960 312v40M240 352h720" class="line"/>
+<g filter="url(#s)" transform="translate(255 352)"><rect width="300" height="88" rx="14" class="box"/><text x="22" y="34" class="h">Nawabari</text><text x="22" y="59" class="k">ISOLATED RUNTIME</text></g>
+<g filter="url(#s)" transform="translate(645 352)"><rect width="300" height="88" rx="14" class="box"/><text x="22" y="34" class="h">Suzukuri</text><text x="22" y="59" class="k">GOVERNED EXECUTION</text></g>
+<path d="M555 396h90" class="line"/><circle cx="600" cy="396" r="5" fill="#58a6ff"/>
 </svg>
