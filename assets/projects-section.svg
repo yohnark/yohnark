@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120">
+<defs><linearGradient id="l"><stop stop-color="#58a6ff"/><stop offset="1" stop-color="#58a6ff" stop-opacity="0"/></linearGradient></defs>
+<rect width="1200" height="120" rx="14" fill="#0d1117" stroke="#30363d"/>
+<text x="42" y="47" fill="#58a6ff" font-family="ui-monospace,monospace" font-size="12" letter-spacing="3">PROJECT SYSTEM</text>
+<text x="42" y="82" fill="#f0f6fc" font-family="ui-sans-serif,system-ui,sans-serif" font-size="27" font-weight="700">Six modules. One engineering model.</text>
+<rect x="42" y="99" width="560" height="2" fill="url(#l)"/>
+<text x="1135" y="73" text-anchor="end" fill="#30363d" font-family="ui-monospace,monospace" font-size="54" font-weight="700">01</text>
+</svg>
