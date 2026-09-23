@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280">
+<style>.n{font:700 42px ui-monospace,monospace;fill:#21262d}.h{font:700 17px ui-sans-serif,system-ui,sans-serif;fill:#f0f6fc}.s{font:12px ui-monospace,monospace;fill:#8b949e}.a{fill:#58a6ff}</style>
+<rect width="1200" height="280" rx="18" fill="#0d1117" stroke="#30363d"/>
+<text x="45" y="48" class="s" fill="#58a6ff">ENGINEERING PRINCIPLES / 02</text>
+<g transform="translate(45 82)"><rect width="205" height="150" rx="12" fill="#111820" stroke="#30363d"/><rect width="205" height="3" rx="2" class="a"/><text x="18" y="50" class="n">01</text><text x="18" y="88" class="h">CONTRACTS</text><text x="18" y="112" class="s">over prompts</text></g>
+<g transform="translate(271 82)"><rect width="205" height="150" rx="12" fill="#111820" stroke="#30363d"/><rect width="205" height="3" rx="2" class="a"/><text x="18" y="50" class="n">02</text><text x="18" y="88" class="h">ISOLATION</text><text x="18" y="112" class="s">over convention</text></g>
+<g transform="translate(497 82)"><rect width="205" height="150" rx="12" fill="#111820" stroke="#30363d"/><rect width="205" height="3" rx="2" class="a"/><text x="18" y="50" class="n">03</text><text x="18" y="88" class="h">EVIDENCE</text><text x="18" y="112" class="s">over confidence</text></g>
+<g transform="translate(723 82)"><rect width="205" height="150" rx="12" fill="#111820" stroke="#30363d"/><rect width="205" height="3" rx="2" class="a"/><text x="18" y="50" class="n">04</text><text x="18" y="88" class="h">CANON</text><text x="18" y="112" class="s">over duplication</text></g>
+<g transform="translate(949 82)"><rect width="205" height="150" rx="12" fill="#111820" stroke="#30363d"/><rect width="205" height="3" rx="2" class="a"/><text x="18" y="50" class="n">05</text><text x="18" y="88" class="h">BOUNDARIES</text><text x="18" y="112" class="s">around autonomy</text></g>
+</svg>
