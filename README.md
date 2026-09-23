@@ -64,7 +64,7 @@ EVIDENCE
 
 <br>
 
-## Projects
+<img src="./assets/projects-section.svg" width="100%" alt="Projects — Six modules, one engineering model">
 
 <table>
 <tr>
@@ -162,6 +162,8 @@ Discovery, representation, and application of repository conventions and operati
 <br>
 
 ## Engineering principles
+
+> **The system should carry the rules.** Agents should spend their reasoning budget on engineering work, not on remembering operational conventions.
 
 <table>
 <tr>
