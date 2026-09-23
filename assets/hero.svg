@@ -1,26 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#0d1117"/>
-    <stop offset="1" stop-color="#161b22"/>
-  </linearGradient>
-  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-    <path d="M32 0H0V32" fill="none" stroke="#30363d" stroke-opacity=".28"/>
-  </pattern>
-  <linearGradient id="line" x1="0" x2="1">
-    <stop stop-color="#58a6ff" stop-opacity="0"/>
-    <stop offset=".5" stop-color="#58a6ff"/>
-    <stop offset="1" stop-color="#58a6ff" stop-opacity="0"/>
-  </linearGradient>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080b10"/><stop offset=".55" stop-color="#0d1117"/><stop offset="1" stop-color="#111a25"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#58a6ff" stop-opacity=".22"/><stop offset="1" stop-color="#58a6ff" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#30363d" stroke-opacity=".28"/></pattern>
+ <filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000" flood-opacity=".5"/></filter>
 </defs>
-<rect width="1200" height="300" rx="18" fill="url(#bg)"/>
-<rect width="1200" height="300" rx="18" fill="url(#grid)"/>
-<circle cx="1040" cy="82" r="92" fill="none" stroke="#30363d"/>
-<circle cx="1040" cy="82" r="60" fill="none" stroke="#30363d" stroke-dasharray="4 8"/>
-<path d="M948 82h184M1040-10v184" stroke="#30363d" stroke-opacity=".55"/>
-<rect x="72" y="70" width="8" height="92" rx="4" fill="#58a6ff"/>
-<text x="108" y="126" fill="#f0f6fc" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="52" font-weight="700">yohnark</text>
-<text x="108" y="174" fill="#8b949e" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="22">Infrastructure for governed, autonomous AI development</text>
-<line x1="108" y1="214" x2="720" y2="214" stroke="url(#line)"/>
-<text x="108" y="248" fill="#58a6ff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" letter-spacing="2">GOVERNANCE  /  RUNTIME  /  ORCHESTRATION  /  ARCHITECTURE</text>
+<rect width="1200" height="420" rx="22" fill="url(#bg)"/><rect width="1200" height="420" rx="22" fill="url(#grid)"/>
+<circle cx="990" cy="190" r="280" fill="url(#glow)"/>
+<g opacity=".8"><circle cx="1000" cy="190" r="142" fill="none" stroke="#30363d"/><circle cx="1000" cy="190" r="104" fill="none" stroke="#58a6ff" stroke-opacity=".35" stroke-dasharray="3 10"/><circle cx="1000" cy="190" r="62" fill="none" stroke="#30363d"/><path d="M858 190h284M1000 48v284M900 90l200 200M1100 90L900 290" stroke="#30363d" stroke-opacity=".6"/></g>
+<g filter="url(#shadow)"><rect x="66" y="65" width="700" height="286" rx="16" fill="#0d1117" fill-opacity=".82" stroke="#30363d"/><rect x="66" y="65" width="6" height="286" rx="3" fill="#58a6ff"/></g>
+<text x="108" y="124" fill="#58a6ff" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13" letter-spacing="3">ENGINEERING / AI SYSTEMS</text>
+<text x="108" y="193" fill="#f0f6fc" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="58" font-weight="700">yohnark</text>
+<text x="108" y="238" fill="#c9d1d9" font-family="ui-sans-serif,system-ui,sans-serif" font-size="23">Governed infrastructure for autonomous development.</text>
+<text x="108" y="292" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14">CONTRACTS  →  BOUNDARIES  →  EXECUTION  →  EVIDENCE</text>
+<circle cx="109" cy="324" r="4" fill="#3fb950"/><text x="124" y="329" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12">BUILDING THE CONTROL PLANE FOR CODING AGENTS</text>
 </svg>
